@@ -26,10 +26,10 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-60%, -50%);
-
     height: 627px;
-    width: 311px;
-    
+    width: 300px;
+    box-shadow: 7px 3px 15px rgba(0, 0, 0, 0.472);
+    border-radius: 60px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
@@ -39,4 +39,16 @@ section#telefone{
     left: 22px;
     width: 268px;
     height: 470px;
+}
+
+#redes-sociais{
+    text-align: right;
+   
+}
+
+#redes-sociais img{
+    width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 7px 3px 15px rgba(0, 0, 0, 0.472);
 }
